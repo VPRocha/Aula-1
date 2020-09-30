@@ -1,0 +1,36 @@
+body {
+    background: #ebebeb;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table.horario {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table.horario td,
+table.horario th {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+table.horario th {
+    text-align: left;
+}
+
+table.horario caption {
+    font-weight: bolder;
+    color: rgb(71, 68, 238);
+    text-align: right;
+    padding-bottom: 1rem;
+}
+
+table.horario thead th,
+table.horario tfoot th,
+table.horario tbody th {
+    background-color: rgb(71, 68, 238);
+    padding: 1rem;
+}

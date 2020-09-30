@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 3 - Atividade Avaliativa</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+
+<body>
+
+    <section class="sessao-contato">
+        <form method="POST" name="meuForm" onsubmit="return valida();">
+            <h2>Contato</h2>
+            <input type="text" id="endId" name="endereco" placeholder="Endereço">
+            <input type="tel" id="telId" name="telefone" placeholder="Telefone">
+            <input type="submit" name="acao" value="Enviar" onclick="enviar()">
+        </form>
+        <span id="erro"> </span>
+    </section>
+
+
+    <script src="formulario.js"></script>
+</body>
+
+</html>
